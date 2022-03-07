@@ -69,8 +69,15 @@ header .logo a {
     letter-spacing: 2px;
 }
 
+@media only screen and (max-width: 768px) {
+    .info #information h3{
+        padding-top: 65px;
+        font-size: 20px;
+    }
+}
+
 .header .nav {
-  padding:0 15px;
+  padding: 0px 15px;
 }
 
 .header .nav ul {
@@ -81,7 +88,7 @@ header .logo a {
 
 .header .nav ul li {
     display: inline-block;
-    margin-left:30px
+    margin-left: 20px
 }
 
 .header .nav ul li a {
@@ -166,14 +173,14 @@ header .logo a {
 
 @font-face {
     font-family: brooke;
-    src: url(brooke_smith_script/Brooke\ Smith\ Script.ttf) format("truetype");
+    src: url(C:/Users/autum/OneDrive/Documents/weddingwebsite/BrookeSmithScript.ttf);
 }
 
 .home-section .home-content h1{
     font-size:90px;
     color:#ffffff;
     margin:0;
-    font-weight: normal;
+    font-weight: bold;
     font-family: brooke;
     /*name*/
 }
@@ -192,7 +199,8 @@ header .logo a {
     color: #ffffff;
     padding: 7px 30px;
     margin:15px 0 0;
-    font-family: "Raleway", serif;
+    font-family: sans-serif;
+    /*Date Bubble*/
 }
 
 .home-section .slide.active .home-content span {
@@ -201,12 +209,11 @@ header .logo a {
     animation-delay: 1s;
 }
 
-
 .info {
     background-color: #FCF8F5;
     min-height: 100vh;
     position: relative;
-    font-family: 'Raleway', sans-serif;
+    font-family: sans-serif;
 }
 
 .info #information h3{
@@ -237,9 +244,47 @@ header .logo a {
     padding-bottom: 50px;
 }
 
-.rsvp-section {
-    min-height: 100vh;
+.registry-section {
     background-color: #FCF8F5;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.registry-section h1 {
+    font-family: brooke;
+    font-size: 90px;
+    font-weight: bold;
+    color: #A65842;
+    text-shadow: 2px 2px #acabab;
+    padding-top: 150px;
+}
+
+.registry-section h5 {
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.btn {
+    background-color: #A65842;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    color: #A65842;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
 }
 
 .hide {
@@ -257,23 +302,23 @@ header .logo a {
 }   
 
 .location-section .location-time #ceremony a {
-    position: relative;
-    top: 130px;
-    left: 365px;
-    color: black;
-    text-decoration: underline;
+    position: relative; 
+    top: 135px; 
+    left: 352px; 
 }
 
 .location-section .location-time #ceremony p {
-    font-family: "Stalemate";
+    font-family: brooke;
     font-size: 90px;
+    font-weight: bold;
     color: #A65842;
     text-shadow: 2px 2px #acabab;
 }
 
 .location-section .location-time #ceremony h2, a {
-    font-family: "Raleway";
+    font-family: sans-serif;
     font-size: 20px;
+    color: #A65842;
 }
 
 .location-section .location-time #reception p, h2 {
@@ -283,18 +328,18 @@ header .logo a {
 } 
 
 .location-section .location-time #reception p {
-    font-family: "Stalemate";
+    font-family: brooke;
     font-size: 90px;
+    font-weight: bold;
     color: #A65842;
     text-shadow: 2px 2px #acabab;
-    
 }
 
 .location-section .location-time #reception h2 {
-    font-family: "Raleway";
+    font-family: sans-serif;
     font-size: 20px;
+    color: #A65842;
 }
-
 
 .location-section .location-time #cocktail p, h2 {
     position: relative; 
@@ -303,13 +348,48 @@ header .logo a {
 }   
 
 .location-section .location-time #cocktail p {
-    font-family: "Stalemate";
+    font-family: brooke;
     font-size: 90px;
+    font-weight: bold;
     color: #A65842;
     text-shadow: 2px 2px #acabab;
 }
 
 .location-section .location-time #cocktail h2 {
-    font-family: "Raleway";
+    font-family: sans-serif;
     font-size: 20px;
+    color: #A65842;
+}
+
+.banner {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.accom-section {
+    height: 100vh;
+}
+
+.accomTxt {
+    font-family: sans-serif;
+    font-size: 25px; 
+    padding-bottom: 25px; 
+}
+
+#accom {
+    position: relative;
+    text-align: center;
+}
+
+.textAcc {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    font-family: brooke;
+    font-size: 90px;
+    font-weight: bold;
+    color: #A65842;
+    text-shadow: 2px 2px #acabab;
 }
