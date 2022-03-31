@@ -5,8 +5,7 @@ $(window).on("load",function(){
     const slideLen = $(".slide").length;
 
     function slideShow() {
-        
-        console.log(slideIndex);
+
         $(".slide").removeClass("active").eq(slideIndex)
         .addClass("active");
 
