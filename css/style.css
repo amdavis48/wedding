@@ -48,6 +48,18 @@ footer{
     align-items: center;
 }
 
+.floatingLeft {
+    float:left;
+    height: 575px; 
+    width: auto;
+}
+
+.floatingRight {
+    float:right;
+    height: 575px; 
+    width: auto;
+}
+
 .header {
     position: absolute;
     width: 100%;
@@ -88,7 +100,7 @@ header .logo a {
 
 .header .nav ul li a {
     display: inline;
-    padding: 15px 0;
+    padding: 15px 5px;
     color: #ffffff;
     font-size: 15px;
     text-transform: uppercase;
@@ -115,6 +127,7 @@ header .logo a {
     visibility: hidden;
     transition: all 2s ease-in-out;
 }
+
 
 .home-section .slide.active {
     opacity: 1;
@@ -168,7 +181,7 @@ header .logo a {
 
 @font-face {
     font-family: brooke;
-    src: url(C:/Users/autum/OneDrive/Documents/weddingwebsite/BrookeSmithScript.ttf);
+    src: url(../BrookeSmithScript.ttf);
 }
 
 .home-section .home-content h1{
@@ -364,6 +377,7 @@ header .logo a {
 
 .accom-section {
     height: 100vh;
+    background-color: #FCF8F5;
 }
 
 .accomTxt {
@@ -378,10 +392,6 @@ header .logo a {
 }
 
 .textAcc {
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     font-family: brooke;
     font-size: 90px;
     font-weight: bold;
@@ -401,121 +411,18 @@ header .logo a {
     display: none;
     float: right;
 }
-@media (max-width: 500px) {
 
-    .info #information h3{
-        font-size: 30px !important;
-    }
 
-    .container {
-        margin: 0px 25px !important;
-    }
-
-    .location-section .location-time #ceremony p, h2, a {
-        top: 0px;
-    }   
-    
-    .location-section .location-time #ceremony p {
-        font-size: 60px;
-    }
-
-    .location-section .location-time #cocktail p, h2, a {
-        top: 0px;
-    } 
-
-    .location-section .location-time #cocktail p {
-        font-size: 60px;
-    }
-
-    .location-section .location-time #reception p, h2, a {
-        top: 0px;
-    } 
-
-    .location-section .location-time #reception p {
-        font-size: 60px;
-    }
-    
-    .registry-section h1 {
-        font-size: 60px;
-    }
-
-    .registry-section h5 {
-        font-size: 20px;
-    }
-
-    .accom-section h1 {
-        font-size: 60px;
-    }
-
-    .accom-section h5 {
-        font-size: 20px;
-    }
+h4 {
+    text-align: center;
 }
 
-@media (max-width: 858px) {
+footer {
+    background-color: #FCF8F5;
+}
 
-    .container {
-        margin: 0px 55px;
-    }
-
-    .info #information h3{
-        padding-top: 100px;
-        font-size: 45px;
-    }
-
-    ul {
-        background-color:#A65842;
-        height: 100vh;
-        display: none;
-    }
-
-    .header .nav ul li {
-        display: block;
-        text-align: center;
-        padding: 56px 0px;
-    }
-
-    .header .nav ul li a {
-        font-size: 30px;
-    }
-
-    .header .nav {
-        padding: 0px 0px;
-    }
-
-    .logo {
-        display: none;
-    }
-
-    .row {
-        display: block;
-    }
-
-    .checkbtn {
-        display: block;
-        font-size: 40px;
-        padding: 15px;
-    }
-
-    #check {
-        display: none;
-        font-size: 45px;
-        padding: 15px;
-    }
-
-    .header .logo {
-        padding: 0px;
-    }
-
-    header .logo a {
-        font-size: 60px;
-    }
-
-    #check:checked ~ ul {
-        display: block;
-    }
-
-    .home-section .home-content {
-        padding-top: 50%;
-    }
+.social {
+    display: block;
+    text-align: center;
+    padding-top: 50px;
 }

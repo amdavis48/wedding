@@ -1,0 +1,350 @@
+@media (min-width: 200px) {
+
+    .floatingLeft {
+        height: 425px; 
+    }
+    
+    .floatingRight {
+        height: 425px; 
+    }
+    
+    .info #information h3{
+        font-size: 22px;
+    } 
+
+    .info #information h2 {
+        font-size: 18px;
+    }
+
+    .registry-section h1 {
+        font-size: 60px;
+    }
+
+    .registry-section h5 {
+        font-size: 18px;
+    }
+
+    .location-section .location-time #ceremony p {
+        font-size: 60px;
+    }
+
+    .location-section .location-time #cocktail p {
+        font-size: 60px;
+    }
+    
+    .location-section .location-time #reception p {
+        font-size: 60px;
+    }
+
+    .location-section .location-time #ceremony p, h2, a {
+        top: 10px;
+    }   
+
+    .location-section .location-time #cocktail p, h2, a {
+        top: 10px;
+    } 
+
+
+    .location-section .location-time #reception p, h2, a {
+        top: 10px;
+    }
+
+    .textAcc {
+        font-size: 60px;
+    }
+    
+    .accomTxt {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 375px){
+    .floatingLeft {
+        height: 425px; 
+    }
+    
+    .floatingRight {
+        height: 425px; 
+    }
+
+    .info #information h3{
+        font-size: 22px;
+    } 
+
+    .info #information h2 {
+        font-size: 18px;
+    }
+
+    .registry-section h1 {
+        font-size: 60px;
+    }
+
+    .registry-section h5 {
+        font-size: 18px;
+    }
+
+    .location-section .location-time #ceremony p {
+        font-size: 60px;
+    }
+
+    .location-section .location-time #cocktail p {
+        font-size: 60px;
+    }
+    
+    .location-section .location-time #reception p {
+        font-size: 60px;
+    }
+
+    .location-section .location-time #ceremony p, h2, a {
+        top: 10px;
+    }   
+
+    .location-section .location-time #cocktail p, h2, a {
+        top: 10px;
+    } 
+
+
+    .location-section .location-time #reception p, h2, a {
+        top: 10px;
+    }
+
+    .textAcc {
+        font-size: 60px;
+    }
+    
+    .accomTxt {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 375px) {
+    .home-section .home-content {
+        padding-top: 35%;
+    }
+
+    .home-section .slide {
+        object-fit: contain;
+        width: 375px;
+        height: auto; 
+    }
+}
+@media (min-width: 390px) {
+    .floatingLeft {
+        height: 520px; 
+    }
+    
+    .floatingRight {
+        height: 520px; 
+    }
+
+    .social {
+        padding-top: 120px;
+    }
+}
+
+@media (min-width: 414px) {
+    .floatingLeft {
+        height: 530px; 
+    }
+    
+    .floatingRight {
+        height: 530px; 
+    }
+
+    #information img {
+        padding-top: 150px;
+    }
+
+    .info #information h3{
+        font-size: 25px;
+    } 
+
+    .info #information h2 {
+        font-size: 20px;
+    }
+
+    .registry-section {
+        padding-bottom: 200px;
+    }
+
+    .social {
+        padding-top: 175px;
+    }
+
+}
+
+@media (min-width: 650px) {
+    .floatingLeft {
+        height: 600px; 
+        width: auto;
+    }
+    
+    .floatingRight {
+        height: 600px; 
+        width: auto;
+    }
+}
+
+@media (max-width: 858px) {
+
+    .container {
+        margin: 0px 20px;
+    }
+
+    #information img {
+        padding-bottom: 50px;
+    }
+
+    ul {
+        background-color:#A65842;
+        height: 100vh;
+        display: none;
+    }
+
+    .header .nav ul li {
+        display: block;
+        text-align: center;
+        padding-top: 25%;
+    }
+/* 
+    .header .nav ul li a {
+        font-size: 30px;
+    } */
+
+    .header .nav {
+        padding: 0px 0px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .checkbtn {
+        display: block;
+        font-size: 40px;
+        padding: 15px;
+    }
+
+    #check {
+        display: none;
+        font-size: 45px;
+        padding: 15px;
+    }
+
+    .header .logo {
+        padding: 0px;
+    }
+
+    header .logo a {
+        font-size: 60px;
+    }
+
+    #check:checked ~ ul {
+        display: block;
+    }
+
+    .home-section .home-content {
+        padding-top: 50%;
+    }
+
+    .location-section {
+        min-height: fit-content;
+    }
+
+    .accom-section {
+        height: 90vh;
+    }
+
+    .floatingLeft {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .floatingRight {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1120px) {
+    #map {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+     
+    .floatingLeft {
+        height: 600px; 
+        width: auto;
+    }
+    
+    .floatingRight {
+        height: 600px;
+        width: auto;
+    }
+    
+    .info #information h3{
+        font-size: 35px;
+    } 
+
+    .info #information h2 {
+        font-size: 20px;
+    }
+
+    .registry-section h1 {
+        font-size: 90px;
+    }
+
+    .registry-section h5 {
+        font-size: 20px;
+    }
+
+    .location-section .location-time #ceremony p {
+        font-size: 90px;
+    }
+
+    .location-section .location-time #cocktail p {
+        font-size: 90px;
+    }
+    
+    .location-section .location-time #reception p {
+        font-size: 90px;
+    }
+
+    .location-section .location-time #ceremony p, h2, a {
+        top: 130px;
+    }   
+
+    .location-section .location-time #cocktail p, h2, a {
+        top: 130px;
+    } 
+
+    .location-section .location-time #reception p, h2, a {
+        top: 130px;
+    }
+
+    .textAcc {
+        font-size: 90px;
+    }
+    
+    .accomTxt {
+        font-size: 20px;
+    }
+
+    .social {
+        padding-top: 100px;
+    }
+
+    .registry-section {
+        padding-bottom: 270px;
+    }
+}
