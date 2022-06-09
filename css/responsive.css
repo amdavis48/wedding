@@ -305,6 +305,10 @@
     #map {
         display: none;
     }
+
+    .banner {
+        height: 200px;
+    }
 }
 
 @media (min-width: 1000px) {
